@@ -17,7 +17,7 @@ def getCSV():
 #    	print str(data.get('time')[x]) + "   " + str(data.get('mag')[x]) 
 
 def getLocationKeys():
-	webcsv = open('geosites.csv')
+	webcsv = open('res/geosites.csv')
 	csvreader = csv.reader(webcsv)
 	data = []
 	for row in csvreader:
