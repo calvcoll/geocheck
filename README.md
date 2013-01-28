@@ -1,4 +1,4 @@
 geocheck
 ========
 
-Bash to check for earthquakes
+Python code to check for an earthquake once run.
