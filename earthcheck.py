@@ -44,7 +44,7 @@ while not change:
 		city = ''
 		obv = ''
 		for x in range(len(keys.get('key'))):
-			if place.upper() == keys.get('key')[x].upper():
+			if place.upper() == keys.get('key')[x].upper()[0:2]:
 				city = keys.get('city')[x]
 				obv = keys.get('obv')[x]
 		print "Earthquake Detected!" + " on " + time + " at " + obv + " in " + city
